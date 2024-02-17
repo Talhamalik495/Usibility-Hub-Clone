@@ -1,0 +1,693 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* top banner */
+.heading {
+    width: 100%;
+    height: 45px;
+    background-color: #e74694;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('./assets/asset\ 28.png');
+    background-size: 300px;
+    background-repeat: repeat;
+}
+
+/* navbar */
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+}
+
+ul>li {
+    list-style: none;
+    font-size: 20px;
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+.navlogo {
+    display: flex;
+    align-items: center;
+
+}
+
+ul>li>button>a {
+    text-decoration: none;
+}
+
+ul>li>.navborder {
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 8px;
+    border-color: #b9cde4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul>li>.broder {
+    color: black !important;
+}
+
+ul>li>.broder:hover {
+
+    border-color: #2294ed;
+}
+
+ul>li>.color {
+    font-weight: bold;
+}
+
+ul>li>.color:hover {
+    background-color: #438cd3;
+}
+
+ul>li>.transparent {
+    background-color: #2294ed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+/* section 1 */
+.section {
+
+    padding: 5px;
+    display: flex;
+    gap: 40px;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+
+.box2 {
+    align-self: center;
+}
+
+.box1>a {
+
+    padding: 0px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.heden {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 80px;
+    color: white;
+
+}
+
+.hedenparagraph {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+
+.sectionlink {
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid #2294ed;
+    display: inline;
+    padding: 20px;
+    background-color: #2294ed;
+    border-radius: 8px;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+
+.sectionlink>a {
+    text-decoration: none;
+    color: white;
+}
+
+.sectionlink:hover {
+    background-color: #438cd3;
+}
+
+.paragraph {
+    font-size: larger;
+
+}
+
+.height {
+    text-align: center;
+    margin-left: 60px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* company section */
+.container {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    margin-left: 60px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    object-fit: contain;
+}
+
+/* section 2*/
+.memore {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1.1;
+    margin-left: 30px;
+    margin-right: 30px;
+    box-sizing: border-box;
+
+}
+
+.see {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    box-sizing: border-box;
+}
+
+.see>a {
+
+    border: 1px solid #40a2ef;
+    padding: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+
+}
+
+.muzic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 70px;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+
+}
+
+.boxone {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+
+}
+
+.size {
+    font-size: 22px;
+}
+
+.sizes {
+    font-size: 25px;
+}
+
+.centers {
+    display: flex;
+    justify-content: center;
+}
+
+.boxone>a {
+    border: 1px solid #577592;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.boxone>a:hover {
+    color: #40a2ef;
+    border-color: #40a2ef;
+}
+
+/* section 3 */
+.sectionno1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    box-sizing: border-box;
+
+}
+
+.sectionbox1 {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.one {
+    font-size: 20.1px;
+    font-weight: 200;
+    color: #333333;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.two {
+    font-size: 25.1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #183b56;
+}
+
+.three {
+    font-size: 20.1px;
+    color: #333333;
+}
+
+.four {
+    font-size: 20.1px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.five {
+    display: flex;
+    color: #333333;
+    font-size: 25.1px;
+
+}
+
+.start {
+    background-color: brown;
+}
+
+/* section 4 */
+.section2 {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.section2box1 {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-right: 0%;
+}
+
+.seven {
+    display: flex;
+}
+
+/* section 5 */
+.section3 {
+
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.section3box2 {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+
+
+.section5box1 {
+    background-color: #333333;
+}
+
+.bold {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 50px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.buttons>button>a {
+    text-decoration: none;
+    color: black;
+}
+
+.buttons>button {
+    width: 230px;
+    height: 50px;
+    font-size: large;
+    background-color: transparent;
+    border-color: #b9cde4;
+    border-radius: 5px;
+}
+
+.buttons>button:hover {
+    border-color: #86bde7;
+}
+
+.buttons>button>a:hover {
+    color: #40a2ef;
+}
+
+/* Cards */
+.card-main-div {
+    display: flex;
+    gap: 37px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.card1 {
+    width: 256px;
+    height: 300px;
+    background-image: linear-gradient(0deg, rgba(12, 12, 12, 0.5), rgba(23, 22, 23, 0.3)), url("https://usabilityclone.vercel.app/images/asset\ 36.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card1>h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 200px;
+    margin-left: 10px;
+}
+
+.card2 {
+    width: 256px;
+    height: 300px;
+    background-image: linear-gradient(0deg, rgba(12, 12, 12, 0.5), rgba(23, 22, 23, 0.3)), url("https://usabilityclone.vercel.app/images/asset\ 37.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card2>h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 200px;
+    margin-left: 10px;
+}
+
+.card3 {
+    width: 256px;
+    height: 300px;
+    background-image: linear-gradient(0deg, rgba(12, 12, 12, 0.5), rgba(23, 22, 23, 0.3)), url("https://usabilityclone.vercel.app/images/asset\ 38.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card3>h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 200px;
+    margin-left: 10px;
+}
+
+.card4 {
+    width: 256px;
+    height: 300px;
+    background-image: linear-gradient(0deg, rgba(12, 12, 12, 0.5), rgba(23, 22, 23, 0.3)), url("https://usabilityclone.vercel.app/images/asset\ 39.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card4:hover {
+    text-shadow: green;
+    opacity: 1500px;
+    box-shadow: black;
+    opacity: 1500px;
+}
+
+.card4>h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 200px;
+    margin-left: 10px;
+}
+
+/* blue div */
+.blue-main {
+    display: flex;
+    background-color: #183b54;
+    margin-top: 50px;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.blue-main-left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+    color: white;
+}
+
+div>ul>li {
+
+    list-style-type: disc;
+    color: #b9cddb;
+}
+
+.blue-main-left-p {
+    color: #b9cddb;
+}
+
+
+.panel {
+    display: flex;
+    gap: 40px;
+
+}
+
+.panel-left {
+    display: block;
+
+
+}
+
+.panel-right {
+    display: block;
+
+}
+
+.blue-main-button>a {
+    text-decoration: none;
+    color: white;
+}
+
+.blue-main-button {
+    height: 40px;
+    width: 150px;
+    background-color: #2294ed;
+    border-color: #2294ed;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+.blue-main-button:hover {
+    background-color: #0d5399;
+}
+
+.blue-main-right {
+    margin-right: 50px;
+}
+
+.main-white-div {
+    height: 400px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* White div */
+.white-div {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.white-div>button {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #40a2ef;
+    border-radius: 8px;
+    border-color: #40a2ef;
+
+}
+
+.white-div>button>a {
+    color: white;
+    text-decoration: none;
+}
+
+.white-div>button:hover {
+    background-color: #0d5399;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ebf2fa;
+    padding-top: 100px;
+}
+
+.footer-img {
+    display: flex;
+}
+
+.footer-fi {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+    color: #5d6d7f;
+}
+
+.footer-fi>h4>a {
+    text-decoration: none;
+    color: #5d6d7f;
+}
+
+.footer-fi>p>a {
+    text-decoration: none;
+    color: #8c6d7f;
+}
+
+.footer-fi>p>a:hover {
+    color: #438cd3;
+}
+
+.footer-se {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+    color: #5d6d7f;
+}
+
+
+.footer-se>h4>a {
+    text-decoration: none;
+    color: #5d6d7f;
+}
+
+.footer-se>p>a {
+    text-decoration: none;
+    color: #8c6d7f;
+
+}
+
+.footer-se>p>a:hover {
+    color: #438cd3;
+}
+
+.footer-th {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-th>h4>a {
+    text-decoration: none;
+    color: #5d6d7f;
+}
+
+.footer-th>p>a {
+    text-decoration: none;
+    color: #8c6d7f;
+    ;
+}
+
+.footer-th>p>a:hover {
+    color: #438cd3;
+}
+
+/* Bootom footer */
+.bootom-footer {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #b9cde4;
+}
+
+.bootom-footer-link {
+    display: flex;
+    gap: 30px;
+}
+
+.bootom-footer-link>a {
+    text-decoration: none;
+    color: #0b2233;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bootom-footer-link>a:hover {
+    color: #438cd3;
+}
+
+.bootom-footer-image {
+    display: flex;
+    gap: 30px;
+}
