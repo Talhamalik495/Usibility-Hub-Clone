@@ -5,6 +5,11 @@
 }
 
 /* top banner */
+.bodymain {
+    width: 100%;
+    overflow: hidden;
+}
+
 .heading {
     width: 100%;
     height: 45px;
@@ -18,29 +23,51 @@
     background-image: url('./assets/asset\ 28.png');
     background-size: 300px;
     background-repeat: repeat;
+    position: fixed;
 }
 
 /* navbar */
 .nav {
+    width: 100%;
+    height: 150px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 ul {
     display: flex;
     gap: 30px;
+    position: relative;
 }
 
 ul>li {
     list-style: none;
     font-size: 20px;
+
 }
 
 ul>li>a {
     text-decoration: none;
     color: black;
+    position: relative;
+}
+
+.ul>li>a::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: 0.3s;
+}
+
+.ul>li>a::after,
+.ul>li>a:hover::after {
+    width: 100%;
 }
 
 .navlogo {
@@ -99,6 +126,17 @@ ul>li>.transparent {
     gap: 40px;
     box-sizing: border-box;
     margin-top: 40px;
+}
+
+.fit {
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* width: 100px;
+    height: 0px; */
 }
 
 .box2 {
@@ -277,6 +315,7 @@ ul>li>.transparent {
     display: flex;
     justify-content: center;
     gap: 36px;
+
 }
 
 
@@ -401,6 +440,7 @@ ul>li>.transparent {
     gap: 37px;
     margin-top: 30px;
     margin-left: 40px;
+
 }
 
 .card1 {
